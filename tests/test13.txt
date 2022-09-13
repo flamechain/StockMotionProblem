@@ -1,0 +1,7 @@
+{
+    index: 1,
+    operator: 'contains',
+    value: 'times'
+},
+['No', 'Yes', 'Sometimes']
+false

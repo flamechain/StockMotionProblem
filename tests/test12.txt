@@ -1,0 +1,7 @@
+{
+    index: 0,
+    operator: 'notEquals',
+    value: 'No'
+},
+['No', 'Yes', 'Sometimes']
+false

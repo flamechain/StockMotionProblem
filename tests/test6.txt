@@ -1,0 +1,7 @@
+{
+    index: 0,
+    operator: 'equals',
+    value: 'True'
+},
+['True', 'False', 'Sometimes']
+true

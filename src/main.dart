@@ -93,22 +93,18 @@ int main(List<String> args) {
     throw "Expected at least one command-line argument (path to test file)";
   }
 
-  int testIndex = 0;
-
   for (String input in args) {
     List<bool> output = CheckCondition(input);
 
     bool result = output[0];
     bool expectedResult = output[1];
 
-    stdout.write("Test $testIndex: ");
+    stdout.write("$input: ");
 
     if (result == expectedResult)
       print("Passed");
     else
       print("Failed");
-
-    testIndex++;
   }
 
   return 0;

@@ -1,0 +1,7 @@
+{
+    index: 0,
+    operator: 'lessThan',
+    value: '4'
+},
+['6', '3', '2']
+false

@@ -2,7 +2,7 @@
 
 At StockMotion, we use conditional logic in our database activity documents to dynamically customize the experience for an end user. At a high level, we have a JSON configuration that represents this conditional logic in the following way (somewhat simplified):
 
-```json
+```
 {
     index: 1,
     operator: 'equals',

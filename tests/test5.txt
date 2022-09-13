@@ -1,0 +1,7 @@
+{
+    index: 1,
+    operator: 'equals',
+    value: 'No'
+},
+['No', 'Yes', '2', '7']
+false

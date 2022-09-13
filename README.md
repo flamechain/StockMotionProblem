@@ -2,7 +2,7 @@
 
 At StockMotion, we use conditional logic in our database activity documents to dynamically customize the experience for an end user. At a high level, we have a JSON configuration that represents this conditional logic in the following way (somewhat simplified):
 
-```
+```txt
 {
     index: 1,
     operator: 'equals',
@@ -12,7 +12,7 @@ At StockMotion, we use conditional logic in our database activity documents to d
 
 We also have a list of responses that could look something like this:
 
-```
+```txt
 ['No', 'Yes', '2', '7', ...]
 ```
 
@@ -77,7 +77,7 @@ additional 'operator' types. Here is a list of conditional operators we support:
 
 Example:
 input:
-```
+```txt
 {
     index: 0,
     operator: 'greaterThan',
